@@ -47,4 +47,7 @@ Route::get('/bb/b2', function () {
 Route::get('/cc/c1', function () {
     return view('cc.c1');
 });
+Route::get('/cc/c2', function () {
+    return view('cc.2');
+});
 require __DIR__.'/auth.php';
